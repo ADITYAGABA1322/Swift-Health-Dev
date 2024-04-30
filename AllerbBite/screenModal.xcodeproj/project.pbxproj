@@ -22,6 +22,54 @@
 		3FADA0162BD7AD0C00DEEE8F /* screenModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADA0152BD7AD0C00DEEE8F /* screenModalTests.swift */; };
 		3FADA0202BD7AD0C00DEEE8F /* screenModalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADA01F2BD7AD0C00DEEE8F /* screenModalUITests.swift */; };
 		3FADA0222BD7AD0C00DEEE8F /* screenModalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FADA0212BD7AD0C00DEEE8F /* screenModalUITestsLaunchTests.swift */; };
+		C86727572BE15D3D00B725A9 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727242BE15D3C00B725A9 /* EventEditor.swift */; };
+		C86727582BE15D3D00B725A9 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727252BE15D3C00B725A9 /* FeaturesView.swift */; };
+		C86727592BE15D3D00B725A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727262BE15D3C00B725A9 /* HomeView.swift */; };
+		C867275A2BE15D3D00B725A9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727272BE15D3C00B725A9 /* AboutView.swift */; };
+		C867275B2BE15D3D00B725A9 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727282BE15D3C00B725A9 /* EventList.swift */; };
+		C867275C2BE15D3D00B725A9 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727292BE15D3C00B725A9 /* DataScannerView.swift */; };
+		C867275D2BE15D3D00B725A9 /* allergiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272A2BE15D3C00B725A9 /* allergiesView.swift */; };
+		C867275E2BE15D3D00B725A9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272B2BE15D3C00B725A9 /* ProfileView.swift */; };
+		C867275F2BE15D3D00B725A9 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272C2BE15D3C00B725A9 /* SymbolPicker.swift */; };
+		C86727602BE15D3D00B725A9 /* AnalyzeVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272D2BE15D3C00B725A9 /* AnalyzeVew.swift */; };
+		C86727612BE15D3D00B725A9 /* allergyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272E2BE15D3C00B725A9 /* allergyTableViewController.swift */; };
+		C86727622BE15D3D00B725A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867272F2BE15D3C00B725A9 /* ContentView.swift */; };
+		C86727632BE15D3D00B725A9 /* foodPrefernceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727302BE15D3C00B725A9 /* foodPrefernceCollectionViewController.swift */; };
+		C86727642BE15D3D00B725A9 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727312BE15D3D00B725A9 /* BrowseView.swift */; };
+		C86727652BE15D3D00B725A9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727322BE15D3D00B725A9 /* DataModel.swift */; };
+		C86727662BE15D3D00B725A9 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727332BE15D3D00B725A9 /* TaskRow.swift */; };
+		C86727672BE15D3D00B725A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727342BE15D3D00B725A9 /* AppDelegate.swift */; };
+		C86727682BE15D3D00B725A9 /* foodPrefernceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727352BE15D3D00B725A9 /* foodPrefernceViewController.swift */; };
+		C86727692BE15D3D00B725A9 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727362BE15D3D00B725A9 /* IntroView.swift */; };
+		C867276A2BE15D3D00B725A9 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727372BE15D3D00B725A9 /* EventRow.swift */; };
+		C867276B2BE15D3D00B725A9 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727382BE15D3D00B725A9 /* AppViewModel.swift */; };
+		C867276C2BE15D3D00B725A9 /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727392BE15D3D00B725A9 /* ColorOption.swift */; };
+		C867276D2BE15D3D00B725A9 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867273A2BE15D3D00B725A9 /* EventTask.swift */; };
+		C867276E2BE15D3D00B725A9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867273B2BE15D3D00B725A9 /* DetailView.swift */; };
+		C867276F2BE15D3D00B725A9 /* HealthPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867273C2BE15D3D00B725A9 /* HealthPlannerApp.swift */; };
+		C86727702BE15D3D00B725A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C867273D2BE15D3D00B725A9 /* Assets.xcassets */; };
+		C86727712BE15D3D00B725A9 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867273E2BE15D3D00B725A9 /* homeViewController.swift */; };
+		C86727722BE15D3D00B725A9 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867273F2BE15D3D00B725A9 /* EventData.swift */; };
+		C86727732BE15D3D00B725A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727402BE15D3D00B725A9 /* MainView.swift */; };
+		C86727742BE15D3D00B725A9 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727412BE15D3D00B725A9 /* Ingredients.swift */; };
+		C86727752BE15D3D00B725A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727422BE15D3D00B725A9 /* SceneDelegate.swift */; };
+		C86727762BE15D3D00B725A9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727432BE15D3D00B725A9 /* Event.swift */; };
+		C86727772BE15D3D00B725A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86727452BE15D3D00B725A9 /* LaunchScreen.storyboard */; };
+		C86727782BE15D3D00B725A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86727472BE15D3D00B725A9 /* Main.storyboard */; };
+		C86727792BE15D3D00B725A9 /* NextStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727492BE15D3D00B725A9 /* NextStepsView.swift */; };
+		C867277A2BE15D3D00B725A9 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867274A2BE15D3D00B725A9 /* ChartData.swift */; };
+		C867277B2BE15D3D00B725A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C867274B2BE15D3D00B725A9 /* Info.plist */; };
+		C867277C2BE15D3D00B725A9 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867274C2BE15D3D00B725A9 /* SFSymbolStyling.swift */; };
+		C867277D2BE15D3D00B725A9 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867274D2BE15D3D00B725A9 /* BarChart.swift */; };
+		C867277E2BE15D3D00B725A9 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867274E2BE15D3D00B725A9 /* EventDetail.swift */; };
+		C867277F2BE15D3D00B725A9 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867274F2BE15D3D00B725A9 /* EventSymbols.swift */; };
+		C86727802BE15D3D00B725A9 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727502BE15D3D00B725A9 /* MyApp.swift */; };
+		C86727812BE15D3D00B725A9 /* allergyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727512BE15D3D00B725A9 /* allergyTableView.swift */; };
+		C86727822BE15D3D00B725A9 /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = C86727522BE15D3D00B725A9 /* ingredients.json */; };
+		C86727832BE15D3D00B725A9 /* foodPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727532BE15D3D00B725A9 /* foodPreference.swift */; };
+		C86727842BE15D3D00B725A9 /* BarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727542BE15D3D00B725A9 /* BarChartCell.swift */; };
+		C86727852BE15D3D00B725A9 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727552BE15D3D00B725A9 /* Package.swift */; };
+		C86727862BE15D3D00B725A9 /* BarcodeTextScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86727562BE15D3D00B725A9 /* BarcodeTextScannerApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +109,54 @@
 		3FADA01B2BD7AD0C00DEEE8F /* screenModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = screenModalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FADA01F2BD7AD0C00DEEE8F /* screenModalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenModalUITests.swift; sourceTree = "<group>"; };
 		3FADA0212BD7AD0C00DEEE8F /* screenModalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenModalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C86727242BE15D3C00B725A9 /* EventEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		C86727252BE15D3C00B725A9 /* FeaturesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		C86727262BE15D3C00B725A9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C86727272BE15D3C00B725A9 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C86727282BE15D3C00B725A9 /* EventList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		C86727292BE15D3C00B725A9 /* DataScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
+		C867272A2BE15D3C00B725A9 /* allergiesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allergiesView.swift; sourceTree = "<group>"; };
+		C867272B2BE15D3C00B725A9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C867272C2BE15D3C00B725A9 /* SymbolPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		C867272D2BE15D3C00B725A9 /* AnalyzeVew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzeVew.swift; sourceTree = "<group>"; };
+		C867272E2BE15D3C00B725A9 /* allergyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allergyTableViewController.swift; sourceTree = "<group>"; };
+		C867272F2BE15D3C00B725A9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C86727302BE15D3C00B725A9 /* foodPrefernceCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodPrefernceCollectionViewController.swift; sourceTree = "<group>"; };
+		C86727312BE15D3D00B725A9 /* BrowseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		C86727322BE15D3D00B725A9 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C86727332BE15D3D00B725A9 /* TaskRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		C86727342BE15D3D00B725A9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C86727352BE15D3D00B725A9 /* foodPrefernceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodPrefernceViewController.swift; sourceTree = "<group>"; };
+		C86727362BE15D3D00B725A9 /* IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		C86727372BE15D3D00B725A9 /* EventRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		C86727382BE15D3D00B725A9 /* AppViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C86727392BE15D3D00B725A9 /* ColorOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		C867273A2BE15D3D00B725A9 /* EventTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		C867273B2BE15D3D00B725A9 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C867273C2BE15D3D00B725A9 /* HealthPlannerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthPlannerApp.swift; sourceTree = "<group>"; };
+		C867273D2BE15D3D00B725A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C867273E2BE15D3D00B725A9 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		C867273F2BE15D3D00B725A9 /* EventData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		C86727402BE15D3D00B725A9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C86727412BE15D3D00B725A9 /* Ingredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		C86727422BE15D3D00B725A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C86727432BE15D3D00B725A9 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C86727442BE15D3D00B725A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C86727462BE15D3D00B725A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		C86727492BE15D3D00B725A9 /* NextStepsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextStepsView.swift; sourceTree = "<group>"; };
+		C867274A2BE15D3D00B725A9 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		C867274B2BE15D3D00B725A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C867274C2BE15D3D00B725A9 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		C867274D2BE15D3D00B725A9 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		C867274E2BE15D3D00B725A9 /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		C867274F2BE15D3D00B725A9 /* EventSymbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		C86727502BE15D3D00B725A9 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		C86727512BE15D3D00B725A9 /* allergyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allergyTableView.swift; sourceTree = "<group>"; };
+		C86727522BE15D3D00B725A9 /* ingredients.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
+		C86727532BE15D3D00B725A9 /* foodPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodPreference.swift; sourceTree = "<group>"; };
+		C86727542BE15D3D00B725A9 /* BarChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartCell.swift; sourceTree = "<group>"; };
+		C86727552BE15D3D00B725A9 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		C86727562BE15D3D00B725A9 /* BarcodeTextScannerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeTextScannerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +208,55 @@
 			isa = PBXGroup;
 			children = (
 				3FAD9FFE2BD7AD0B00DEEE8F /* AppDelegate.swift */,
+				C86727512BE15D3D00B725A9 /* allergyTableView.swift */,
 				3FA0FC8B2BD8C4790068887D /* allergyTableViewController.swift */,
 				3FADA0002BD7AD0B00DEEE8F /* SceneDelegate.swift */,
+				C86727272BE15D3C00B725A9 /* AboutView.swift */,
+				C867272A2BE15D3C00B725A9 /* allergiesView.swift */,
+				C867272E2BE15D3C00B725A9 /* allergyTableViewController.swift */,
+				C867272D2BE15D3C00B725A9 /* AnalyzeVew.swift */,
+				C86727342BE15D3D00B725A9 /* AppDelegate.swift */,
+				C86727382BE15D3D00B725A9 /* AppViewModel.swift */,
+				C867273D2BE15D3D00B725A9 /* Assets.xcassets */,
+				C867274D2BE15D3D00B725A9 /* BarChart.swift */,
+				C86727542BE15D3D00B725A9 /* BarChartCell.swift */,
+				C86727562BE15D3D00B725A9 /* BarcodeTextScannerApp.swift */,
+				C86727482BE15D3D00B725A9 /* Base.lproj */,
+				C86727312BE15D3D00B725A9 /* BrowseView.swift */,
+				C867274A2BE15D3D00B725A9 /* ChartData.swift */,
+				C86727392BE15D3D00B725A9 /* ColorOption.swift */,
+				C867272F2BE15D3C00B725A9 /* ContentView.swift */,
+				C86727322BE15D3D00B725A9 /* DataModel.swift */,
+				C86727292BE15D3C00B725A9 /* DataScannerView.swift */,
+				C867273B2BE15D3D00B725A9 /* DetailView.swift */,
+				C86727432BE15D3D00B725A9 /* Event.swift */,
+				C867273F2BE15D3D00B725A9 /* EventData.swift */,
+				C867274E2BE15D3D00B725A9 /* EventDetail.swift */,
+				C86727242BE15D3C00B725A9 /* EventEditor.swift */,
+				C86727282BE15D3C00B725A9 /* EventList.swift */,
+				C86727372BE15D3D00B725A9 /* EventRow.swift */,
+				C867274F2BE15D3D00B725A9 /* EventSymbols.swift */,
+				C867273A2BE15D3D00B725A9 /* EventTask.swift */,
+				C86727252BE15D3C00B725A9 /* FeaturesView.swift */,
+				C86727532BE15D3D00B725A9 /* foodPreference.swift */,
+				C86727302BE15D3C00B725A9 /* foodPrefernceCollectionViewController.swift */,
+				C86727352BE15D3D00B725A9 /* foodPrefernceViewController.swift */,
+				C867273C2BE15D3D00B725A9 /* HealthPlannerApp.swift */,
+				C86727262BE15D3C00B725A9 /* HomeView.swift */,
+				C867273E2BE15D3D00B725A9 /* homeViewController.swift */,
+				C867274B2BE15D3D00B725A9 /* Info.plist */,
+				C86727522BE15D3D00B725A9 /* ingredients.json */,
+				C86727412BE15D3D00B725A9 /* Ingredients.swift */,
+				C86727362BE15D3D00B725A9 /* IntroView.swift */,
+				C86727402BE15D3D00B725A9 /* MainView.swift */,
+				C86727502BE15D3D00B725A9 /* MyApp.swift */,
+				C86727492BE15D3D00B725A9 /* NextStepsView.swift */,
+				C86727552BE15D3D00B725A9 /* Package.swift */,
+				C867272B2BE15D3C00B725A9 /* ProfileView.swift */,
+				C86727422BE15D3D00B725A9 /* SceneDelegate.swift */,
+				C867274C2BE15D3D00B725A9 /* SFSymbolStyling.swift */,
+				C867272C2BE15D3C00B725A9 /* SymbolPicker.swift */,
+				C86727332BE15D3D00B725A9 /* TaskRow.swift */,
 				3FADA0042BD7AD0B00DEEE8F /* Main.storyboard */,
 				3F7155712BDAC3C400F539E6 /* homeViewController.swift */,
 				3F0A047C2BDA16A700A7B8E5 /* foodPreference.swift */,
@@ -143,6 +286,15 @@
 				3FADA0212BD7AD0C00DEEE8F /* screenModalUITestsLaunchTests.swift */,
 			);
 			path = screenModalUITests;
+			sourceTree = "<group>";
+		};
+		C86727482BE15D3D00B725A9 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C86727452BE15D3D00B725A9 /* LaunchScreen.storyboard */,
+				C86727472BE15D3D00B725A9 /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +403,12 @@
 			files = (
 				3FADA0082BD7AD0C00DEEE8F /* Assets.xcassets in Resources */,
 				3FADA00B2BD7AD0C00DEEE8F /* Base in Resources */,
+				C86727702BE15D3D00B725A9 /* Assets.xcassets in Resources */,
+				C86727782BE15D3D00B725A9 /* Main.storyboard in Resources */,
+				C86727822BE15D3D00B725A9 /* ingredients.json in Resources */,
+				C86727772BE15D3D00B725A9 /* LaunchScreen.storyboard in Resources */,
 				3FADA0062BD7AD0B00DEEE8F /* Base in Resources */,
+				C867277B2BE15D3D00B725A9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,15 +433,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86727742BE15D3D00B725A9 /* Ingredients.swift in Sources */,
+				C86727662BE15D3D00B725A9 /* TaskRow.swift in Sources */,
+				C867275B2BE15D3D00B725A9 /* EventList.swift in Sources */,
+				C86727722BE15D3D00B725A9 /* EventData.swift in Sources */,
+				C867277A2BE15D3D00B725A9 /* ChartData.swift in Sources */,
+				C867276F2BE15D3D00B725A9 /* HealthPlannerApp.swift in Sources */,
+				C86727842BE15D3D00B725A9 /* BarChartCell.swift in Sources */,
+				C867275D2BE15D3D00B725A9 /* allergiesView.swift in Sources */,
+				C86727802BE15D3D00B725A9 /* MyApp.swift in Sources */,
+				C86727622BE15D3D00B725A9 /* ContentView.swift in Sources */,
+				C86727862BE15D3D00B725A9 /* BarcodeTextScannerApp.swift in Sources */,
+				C867277D2BE15D3D00B725A9 /* BarChart.swift in Sources */,
+				C867275C2BE15D3D00B725A9 /* DataScannerView.swift in Sources */,
+				C86727752BE15D3D00B725A9 /* SceneDelegate.swift in Sources */,
 				3FA0FC882BD8C0CD0068887D /* allergyTableView.swift in Sources */,
+				C86727652BE15D3D00B725A9 /* DataModel.swift in Sources */,
+				C867276A2BE15D3D00B725A9 /* EventRow.swift in Sources */,
+				C867276C2BE15D3D00B725A9 /* ColorOption.swift in Sources */,
 				3F7155722BDAC3C400F539E6 /* homeViewController.swift in Sources */,
+				C86727672BE15D3D00B725A9 /* AppDelegate.swift in Sources */,
 				3FAD9FFF2BD7AD0B00DEEE8F /* AppDelegate.swift in Sources */,
+				C86727572BE15D3D00B725A9 /* EventEditor.swift in Sources */,
+				C867275A2BE15D3D00B725A9 /* AboutView.swift in Sources */,
 				3FA0FC8C2BD8C4790068887D /* allergyTableViewController.swift in Sources */,
+				C867275E2BE15D3D00B725A9 /* ProfileView.swift in Sources */,
+				C867276E2BE15D3D00B725A9 /* DetailView.swift in Sources */,
+				C867277E2BE15D3D00B725A9 /* EventDetail.swift in Sources */,
+				C86727642BE15D3D00B725A9 /* BrowseView.swift in Sources */,
+				C86727852BE15D3D00B725A9 /* Package.swift in Sources */,
 				3F0A047F2BDA3B9B00A7B8E5 /* foodPrefernceCollectionViewController.swift in Sources */,
+				C867277F2BE15D3D00B725A9 /* EventSymbols.swift in Sources */,
 				3FADA0012BD7AD0B00DEEE8F /* SceneDelegate.swift in Sources */,
+				C86727762BE15D3D00B725A9 /* Event.swift in Sources */,
+				C86727612BE15D3D00B725A9 /* allergyTableViewController.swift in Sources */,
 				3F327C8C2BD7C28F002542D6 /* allergiesView.swift in Sources */,
+				C86727732BE15D3D00B725A9 /* MainView.swift in Sources */,
+				C86727832BE15D3D00B725A9 /* foodPreference.swift in Sources */,
+				C867276B2BE15D3D00B725A9 /* AppViewModel.swift in Sources */,
 				3F0A047D2BDA16A700A7B8E5 /* foodPreference.swift in Sources */,
+				C86727602BE15D3D00B725A9 /* AnalyzeVew.swift in Sources */,
+				C86727812BE15D3D00B725A9 /* allergyTableView.swift in Sources */,
+				C86727692BE15D3D00B725A9 /* IntroView.swift in Sources */,
+				C86727592BE15D3D00B725A9 /* HomeView.swift in Sources */,
+				C86727712BE15D3D00B725A9 /* homeViewController.swift in Sources */,
+				C867275F2BE15D3D00B725A9 /* SymbolPicker.swift in Sources */,
+				C867277C2BE15D3D00B725A9 /* SFSymbolStyling.swift in Sources */,
+				C86727582BE15D3D00B725A9 /* FeaturesView.swift in Sources */,
+				C86727792BE15D3D00B725A9 /* NextStepsView.swift in Sources */,
 				3F0A047B2BDA143F00A7B8E5 /* foodPrefernceViewController.swift in Sources */,
+				C86727632BE15D3D00B725A9 /* foodPrefernceCollectionViewController.swift in Sources */,
+				C86727682BE15D3D00B725A9 /* foodPrefernceViewController.swift in Sources */,
+				C867276D2BE15D3D00B725A9 /* EventTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +535,22 @@
 				3FADA00A2BD7AD0C00DEEE8F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C86727452BE15D3D00B725A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86727442BE15D3D00B725A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C86727472BE15D3D00B725A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86727462BE15D3D00B725A9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
