@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80294D42BE8FBA400E1E384 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80294D32BE8FBA400E1E384 /* SFSymbolStyling.swift */; };
+		C80294D62BE8FBCD00E1E384 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80294D52BE8FBCD00E1E384 /* SymbolPicker.swift */; };
+		C80294D82BE8FBE100E1E384 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80294D72BE8FBE100E1E384 /* TaskRow.swift */; };
+		C84489632BE8F54D002B0DEC /* BarcodeTextScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489622BE8F54D002B0DEC /* BarcodeTextScannerApp.swift */; };
+		C84489652BE8F564002B0DEC /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489642BE8F564002B0DEC /* BrowseView.swift */; };
+		C84489672BE8F72A002B0DEC /* CameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489662BE8F72A002B0DEC /* CameraScannerView.swift */; };
+		C84489692BE8F765002B0DEC /* ColorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489682BE8F765002B0DEC /* ColorOption.swift */; };
+		C844896B2BE8F77C002B0DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844896A2BE8F77C002B0DEC /* ContentView.swift */; };
+		C844896D2BE8F799002B0DEC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844896C2BE8F799002B0DEC /* DataModel.swift */; };
+		C844896F2BE8F8F1002B0DEC /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844896E2BE8F8F1002B0DEC /* DataScannerView.swift */; };
+		C84489712BE8F909002B0DEC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489702BE8F909002B0DEC /* DetailView.swift */; };
+		C84489732BE8F919002B0DEC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489722BE8F919002B0DEC /* Event.swift */; };
+		C84489752BE8F92B002B0DEC /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489742BE8F92B002B0DEC /* EventData.swift */; };
+		C84489772BE8F939002B0DEC /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489762BE8F939002B0DEC /* EventDetail.swift */; };
+		C84489792BE8F944002B0DEC /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489782BE8F944002B0DEC /* EventEditor.swift */; };
+		C844897B2BE8F94F002B0DEC /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844897A2BE8F94F002B0DEC /* EventList.swift */; };
+		C844897D2BE8F95F002B0DEC /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844897C2BE8F95F002B0DEC /* EventRow.swift */; };
+		C844897F2BE8F96C002B0DEC /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844897E2BE8F96C002B0DEC /* EventSymbols.swift */; };
+		C84489812BE8F979002B0DEC /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489802BE8F979002B0DEC /* EventTask.swift */; };
+		C84489852BE8F99F002B0DEC /* HealthPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489842BE8F99F002B0DEC /* HealthPlannerApp.swift */; };
+		C84489872BE8F9AE002B0DEC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489862BE8F9AE002B0DEC /* HomeView.swift */; };
+		C84489892BE8F9C9002B0DEC /* ingredients.json in Resources */ = {isa = PBXBuildFile; fileRef = C84489882BE8F9C9002B0DEC /* ingredients.json */; };
+		C844898B2BE8FAC8002B0DEC /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844898A2BE8FAC8002B0DEC /* Ingredients.swift */; };
+		C844898F2BE8FB0B002B0DEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844898E2BE8FB0B002B0DEC /* MainView.swift */; };
+		C84489912BE8FB3A002B0DEC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84489902BE8FB3A002B0DEC /* ProfileView.swift */; };
+		C87C203D2BE8F162008184BB /* AllerBiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C203C2BE8F162008184BB /* AllerBiteApp.swift */; };
+		C87C20412BE8F164008184BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87C20402BE8F164008184BB /* Assets.xcassets */; };
+		C87C20442BE8F164008184BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87C20432BE8F164008184BB /* Preview Assets.xcassets */; };
+		C87C204E2BE8F164008184BB /* AllerBiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C204D2BE8F164008184BB /* AllerBiteTests.swift */; };
+		C87C20582BE8F164008184BB /* AllerBiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C20572BE8F164008184BB /* AllerBiteUITests.swift */; };
+		C87C205A2BE8F164008184BB /* AllerBiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C20592BE8F164008184BB /* AllerBiteUITestsLaunchTests.swift */; };
+		C87C206C2BE8F43E008184BB /* AllergyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C206B2BE8F43E008184BB /* AllergyView.swift */; };
+		C87C206E2BE8F4BB008184BB /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C206D2BE8F4BB008184BB /* AppViewModel.swift */; };
+		C88000552BEE2BD900A23EEE /* CameraPhotoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88000542BEE2BD900A23EEE /* CameraPhotoCapture.swift */; };
+		C88000572BEE2C6A00A23EEE /* DataSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88000562BEE2C6A00A23EEE /* DataSets.swift */; };
+		C88000592BEE2DC100A23EEE /* ResultSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88000582BEE2DC100A23EEE /* ResultSheetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87C204A2BE8F164008184BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87C20312BE8F162008184BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87C20382BE8F162008184BB;
+			remoteInfo = AllerBite;
+		};
+		C87C20542BE8F164008184BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87C20312BE8F162008184BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87C20382BE8F162008184BB;
+			remoteInfo = AllerBite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80294D32BE8FBA400E1E384 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		C80294D52BE8FBCD00E1E384 /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		C80294D72BE8FBE100E1E384 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		C84489622BE8F54D002B0DEC /* BarcodeTextScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeTextScannerApp.swift; sourceTree = "<group>"; };
+		C84489642BE8F564002B0DEC /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		C84489662BE8F72A002B0DEC /* CameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerView.swift; sourceTree = "<group>"; };
+		C84489682BE8F765002B0DEC /* ColorOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOption.swift; sourceTree = "<group>"; };
+		C844896A2BE8F77C002B0DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C844896C2BE8F799002B0DEC /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C844896E2BE8F8F1002B0DEC /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
+		C84489702BE8F909002B0DEC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C84489722BE8F919002B0DEC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C84489742BE8F92B002B0DEC /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		C84489762BE8F939002B0DEC /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		C84489782BE8F944002B0DEC /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		C844897A2BE8F94F002B0DEC /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		C844897C2BE8F95F002B0DEC /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		C844897E2BE8F96C002B0DEC /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
+		C84489802BE8F979002B0DEC /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		C84489842BE8F99F002B0DEC /* HealthPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPlannerApp.swift; sourceTree = "<group>"; };
+		C84489862BE8F9AE002B0DEC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C84489882BE8F9C9002B0DEC /* ingredients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ingredients.json; sourceTree = "<group>"; };
+		C844898A2BE8FAC8002B0DEC /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		C844898E2BE8FB0B002B0DEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C84489902BE8FB3A002B0DEC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C87C20392BE8F162008184BB /* AllerBite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllerBite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87C203C2BE8F162008184BB /* AllerBiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllerBiteApp.swift; sourceTree = "<group>"; };
+		C87C20402BE8F164008184BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87C20432BE8F164008184BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C87C20492BE8F164008184BB /* AllerBiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllerBiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87C204D2BE8F164008184BB /* AllerBiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllerBiteTests.swift; sourceTree = "<group>"; };
+		C87C20532BE8F164008184BB /* AllerBiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllerBiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87C20572BE8F164008184BB /* AllerBiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllerBiteUITests.swift; sourceTree = "<group>"; };
+		C87C20592BE8F164008184BB /* AllerBiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllerBiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C87C206B2BE8F43E008184BB /* AllergyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyView.swift; sourceTree = "<group>"; };
+		C87C206D2BE8F4BB008184BB /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		C88000542BEE2BD900A23EEE /* CameraPhotoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPhotoCapture.swift; sourceTree = "<group>"; };
+		C88000562BEE2C6A00A23EEE /* DataSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSets.swift; sourceTree = "<group>"; };
+		C88000582BEE2DC100A23EEE /* ResultSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSheetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87C20362BE8F162008184BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C20462BE8F164008184BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C20502BE8F164008184BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87C20302BE8F162008184BB = {
+			isa = PBXGroup;
+			children = (
+				C87C203B2BE8F162008184BB /* AllerBite */,
+				C87C204C2BE8F164008184BB /* AllerBiteTests */,
+				C87C20562BE8F164008184BB /* AllerBiteUITests */,
+				C87C203A2BE8F162008184BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87C203A2BE8F162008184BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87C20392BE8F162008184BB /* AllerBite.app */,
+				C87C20492BE8F164008184BB /* AllerBiteTests.xctest */,
+				C87C20532BE8F164008184BB /* AllerBiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87C203B2BE8F162008184BB /* AllerBite */ = {
+			isa = PBXGroup;
+			children = (
+				C880005C2BEE2E9A00A23EEE /* Browse */,
+				C880005B2BEE2E9200A23EEE /* Scanner */,
+				C880005A2BEE2E8800A23EEE /* Home */,
+				C87C203C2BE8F162008184BB /* AllerBiteApp.swift */,
+				C87C206D2BE8F4BB008184BB /* AppViewModel.swift */,
+				C84489622BE8F54D002B0DEC /* BarcodeTextScannerApp.swift */,
+				C84489842BE8F99F002B0DEC /* HealthPlannerApp.swift */,
+				C84489882BE8F9C9002B0DEC /* ingredients.json */,
+				C87C20402BE8F164008184BB /* Assets.xcassets */,
+				C87C20422BE8F164008184BB /* Preview Content */,
+			);
+			path = AllerBite;
+			sourceTree = "<group>";
+		};
+		C87C20422BE8F164008184BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C87C20432BE8F164008184BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C87C204C2BE8F164008184BB /* AllerBiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87C204D2BE8F164008184BB /* AllerBiteTests.swift */,
+			);
+			path = AllerBiteTests;
+			sourceTree = "<group>";
+		};
+		C87C20562BE8F164008184BB /* AllerBiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87C20572BE8F164008184BB /* AllerBiteUITests.swift */,
+				C87C20592BE8F164008184BB /* AllerBiteUITestsLaunchTests.swift */,
+			);
+			path = AllerBiteUITests;
+			sourceTree = "<group>";
+		};
+		C880005A2BEE2E8800A23EEE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C84489642BE8F564002B0DEC /* BrowseView.swift */,
+				C844896A2BE8F77C002B0DEC /* ContentView.swift */,
+				C84489702BE8F909002B0DEC /* DetailView.swift */,
+				C84489902BE8FB3A002B0DEC /* ProfileView.swift */,
+				C84489862BE8F9AE002B0DEC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C880005B2BEE2E9200A23EEE /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				C87C206B2BE8F43E008184BB /* AllergyView.swift */,
+				C84489662BE8F72A002B0DEC /* CameraScannerView.swift */,
+				C88000542BEE2BD900A23EEE /* CameraPhotoCapture.swift */,
+				C844896C2BE8F799002B0DEC /* DataModel.swift */,
+				C844896E2BE8F8F1002B0DEC /* DataScannerView.swift */,
+				C88000562BEE2C6A00A23EEE /* DataSets.swift */,
+				C844898A2BE8FAC8002B0DEC /* Ingredients.swift */,
+				C844898E2BE8FB0B002B0DEC /* MainView.swift */,
+				C88000582BEE2DC100A23EEE /* ResultSheetView.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		C880005C2BEE2E9A00A23EEE /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				C84489682BE8F765002B0DEC /* ColorOption.swift */,
+				C84489722BE8F919002B0DEC /* Event.swift */,
+				C80294D32BE8FBA400E1E384 /* SFSymbolStyling.swift */,
+				C80294D52BE8FBCD00E1E384 /* SymbolPicker.swift */,
+				C80294D72BE8FBE100E1E384 /* TaskRow.swift */,
+				C84489742BE8F92B002B0DEC /* EventData.swift */,
+				C84489762BE8F939002B0DEC /* EventDetail.swift */,
+				C84489782BE8F944002B0DEC /* EventEditor.swift */,
+				C844897A2BE8F94F002B0DEC /* EventList.swift */,
+				C844897C2BE8F95F002B0DEC /* EventRow.swift */,
+				C844897E2BE8F96C002B0DEC /* EventSymbols.swift */,
+				C84489802BE8F979002B0DEC /* EventTask.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87C20382BE8F162008184BB /* AllerBite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87C205D2BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBite" */;
+			buildPhases = (
+				C87C20352BE8F162008184BB /* Sources */,
+				C87C20362BE8F162008184BB /* Frameworks */,
+				C87C20372BE8F162008184BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllerBite;
+			productName = AllerBite;
+			productReference = C87C20392BE8F162008184BB /* AllerBite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87C20482BE8F164008184BB /* AllerBiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87C20602BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBiteTests" */;
+			buildPhases = (
+				C87C20452BE8F164008184BB /* Sources */,
+				C87C20462BE8F164008184BB /* Frameworks */,
+				C87C20472BE8F164008184BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87C204B2BE8F164008184BB /* PBXTargetDependency */,
+			);
+			name = AllerBiteTests;
+			productName = AllerBiteTests;
+			productReference = C87C20492BE8F164008184BB /* AllerBiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87C20522BE8F164008184BB /* AllerBiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87C20632BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBiteUITests" */;
+			buildPhases = (
+				C87C204F2BE8F164008184BB /* Sources */,
+				C87C20502BE8F164008184BB /* Frameworks */,
+				C87C20512BE8F164008184BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87C20552BE8F164008184BB /* PBXTargetDependency */,
+			);
+			name = AllerBiteUITests;
+			productName = AllerBiteUITests;
+			productReference = C87C20532BE8F164008184BB /* AllerBiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87C20312BE8F162008184BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C87C20382BE8F162008184BB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C87C20482BE8F164008184BB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C87C20382BE8F162008184BB;
+					};
+					C87C20522BE8F164008184BB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C87C20382BE8F162008184BB;
+					};
+				};
+			};
+			buildConfigurationList = C87C20342BE8F162008184BB /* Build configuration list for PBXProject "AllerBite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87C20302BE8F162008184BB;
+			productRefGroup = C87C203A2BE8F162008184BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87C20382BE8F162008184BB /* AllerBite */,
+				C87C20482BE8F164008184BB /* AllerBiteTests */,
+				C87C20522BE8F164008184BB /* AllerBiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87C20372BE8F162008184BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C20442BE8F164008184BB /* Preview Assets.xcassets in Resources */,
+				C84489892BE8F9C9002B0DEC /* ingredients.json in Resources */,
+				C87C20412BE8F164008184BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C20472BE8F164008184BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C20512BE8F164008184BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87C20352BE8F162008184BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88000552BEE2BD900A23EEE /* CameraPhotoCapture.swift in Sources */,
+				C88000592BEE2DC100A23EEE /* ResultSheetView.swift in Sources */,
+				C84489752BE8F92B002B0DEC /* EventData.swift in Sources */,
+				C80294D62BE8FBCD00E1E384 /* SymbolPicker.swift in Sources */,
+				C84489632BE8F54D002B0DEC /* BarcodeTextScannerApp.swift in Sources */,
+				C80294D42BE8FBA400E1E384 /* SFSymbolStyling.swift in Sources */,
+				C844896F2BE8F8F1002B0DEC /* DataScannerView.swift in Sources */,
+				C84489672BE8F72A002B0DEC /* CameraScannerView.swift in Sources */,
+				C80294D82BE8FBE100E1E384 /* TaskRow.swift in Sources */,
+				C84489872BE8F9AE002B0DEC /* HomeView.swift in Sources */,
+				C844896B2BE8F77C002B0DEC /* ContentView.swift in Sources */,
+				C84489732BE8F919002B0DEC /* Event.swift in Sources */,
+				C84489812BE8F979002B0DEC /* EventTask.swift in Sources */,
+				C87C206C2BE8F43E008184BB /* AllergyView.swift in Sources */,
+				C84489772BE8F939002B0DEC /* EventDetail.swift in Sources */,
+				C844897B2BE8F94F002B0DEC /* EventList.swift in Sources */,
+				C84489792BE8F944002B0DEC /* EventEditor.swift in Sources */,
+				C844898F2BE8FB0B002B0DEC /* MainView.swift in Sources */,
+				C84489912BE8FB3A002B0DEC /* ProfileView.swift in Sources */,
+				C84489852BE8F99F002B0DEC /* HealthPlannerApp.swift in Sources */,
+				C84489712BE8F909002B0DEC /* DetailView.swift in Sources */,
+				C844898B2BE8FAC8002B0DEC /* Ingredients.swift in Sources */,
+				C84489692BE8F765002B0DEC /* ColorOption.swift in Sources */,
+				C87C206E2BE8F4BB008184BB /* AppViewModel.swift in Sources */,
+				C84489652BE8F564002B0DEC /* BrowseView.swift in Sources */,
+				C844897F2BE8F96C002B0DEC /* EventSymbols.swift in Sources */,
+				C87C203D2BE8F162008184BB /* AllerBiteApp.swift in Sources */,
+				C844896D2BE8F799002B0DEC /* DataModel.swift in Sources */,
+				C88000572BEE2C6A00A23EEE /* DataSets.swift in Sources */,
+				C844897D2BE8F95F002B0DEC /* EventRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C20452BE8F164008184BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C204E2BE8F164008184BB /* AllerBiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87C204F2BE8F164008184BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87C20582BE8F164008184BB /* AllerBiteUITests.swift in Sources */,
+				C87C205A2BE8F164008184BB /* AllerBiteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87C204B2BE8F164008184BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87C20382BE8F162008184BB /* AllerBite */;
+			targetProxy = C87C204A2BE8F164008184BB /* PBXContainerItemProxy */;
+		};
+		C87C20552BE8F164008184BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87C20382BE8F162008184BB /* AllerBite */;
+			targetProxy = C87C20542BE8F164008184BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C87C205B2BE8F164008184BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87C205C2BE8F164008184BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87C205E2BE8F164008184BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllerBite/Preview Content\"";
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87C205F2BE8F164008184BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AllerBite/Preview Content\"";
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C87C20612BE8F164008184BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllerBite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllerBite";
+			};
+			name = Debug;
+		};
+		C87C20622BE8F164008184BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllerBite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllerBite";
+			};
+			name = Release;
+		};
+		C87C20642BE8F164008184BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllerBite;
+			};
+			name = Debug;
+		};
+		C87C20652BE8F164008184BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLBH3H796P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdityaGaba-adityagaba.onmicrosoft.com.AllerBiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllerBite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87C20342BE8F162008184BB /* Build configuration list for PBXProject "AllerBite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87C205B2BE8F164008184BB /* Debug */,
+				C87C205C2BE8F164008184BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87C205D2BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87C205E2BE8F164008184BB /* Debug */,
+				C87C205F2BE8F164008184BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87C20602BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87C20612BE8F164008184BB /* Debug */,
+				C87C20622BE8F164008184BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87C20632BE8F164008184BB /* Build configuration list for PBXNativeTarget "AllerBiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87C20642BE8F164008184BB /* Debug */,
+				C87C20652BE8F164008184BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87C20312BE8F162008184BB /* Project object */;
+}
