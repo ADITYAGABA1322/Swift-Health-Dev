@@ -191,6 +191,40 @@ struct HomeView: View {
 
                     }
                     .offset(x: 5, y: 0)
+                    
+                    VStack(spacing: 10) {
+                        Image("")
+                            .resizable()
+                            .frame(width: 150, height: 110)
+                            .offset(x:-100 , y:10)
+                        
+                        Text("")
+                            .font(.system(size: 14))
+                            .foregroundColor(.gray)
+                            .offset(x:30 , y:-90)
+                        
+                        Text(" ")
+                            .font(.system(size: 15))
+                            .foregroundColor(.black)
+                            .offset(x:85 , y:-80)
+                        
+                        Text("")
+                            .font(.system(size: 15))
+                            .foregroundColor(.gray)
+                            .offset(x:40 , y:-70)
+                        
+                        Button(action: {
+                            // Action for Browse button
+                        }) {
+                            
+                            Image(systemName: "")
+                                .foregroundColor(.green)
+                                .font(.system(size: 14))
+                                .offset(x: 112, y: -85)
+                        }
+
+                    }
+                    .offset(x: 5, y: 0)
                 }
             }
         }

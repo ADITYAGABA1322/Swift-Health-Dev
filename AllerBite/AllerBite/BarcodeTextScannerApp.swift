@@ -7,6 +7,7 @@ struct BarcodeTextScannerView: View {
 
     var body: some View {
         AllergyView()
+        
             .environmentObject(vm)
             .task {
                 await vm.requestDataScannerAccessStatus()

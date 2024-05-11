@@ -1,10 +1,3 @@
-//
-//  ResultSheetView.swift
-//  AllerBite
-//
-//  Created by Aditya Gaba on 10/05/24.
-//
-
 import SwiftUI
 
 
@@ -105,4 +98,5 @@ struct ResultSheetView_Previews: PreviewProvider {
         ResultSheetView()
     }
 }
+
 

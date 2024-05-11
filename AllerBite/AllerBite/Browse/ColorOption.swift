@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 // Struct ColorOptions provides a set of color options for SwiftUI views

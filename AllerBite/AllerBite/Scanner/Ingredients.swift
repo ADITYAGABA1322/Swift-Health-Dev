@@ -1,12 +1,4 @@
-//
-//  Ingredients.swift
-//  AllerBite
-//
-//  Created by Aditya Gaba on 06/05/24.
-//
-
 import Foundation
-
 struct Ingredient {
     let name: String
 }

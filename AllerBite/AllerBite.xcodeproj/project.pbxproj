@@ -156,7 +156,6 @@
 				C880005B2BEE2E9200A23EEE /* Scanner */,
 				C880005A2BEE2E8800A23EEE /* Home */,
 				C87C203C2BE8F162008184BB /* AllerBiteApp.swift */,
-				C87C206D2BE8F4BB008184BB /* AppViewModel.swift */,
 				C84489622BE8F54D002B0DEC /* BarcodeTextScannerApp.swift */,
 				C84489842BE8F99F002B0DEC /* HealthPlannerApp.swift */,
 				C84489882BE8F9C9002B0DEC /* ingredients.json */,
@@ -206,6 +205,7 @@
 		C880005B2BEE2E9200A23EEE /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				C87C206D2BE8F4BB008184BB /* AppViewModel.swift */,
 				C87C206B2BE8F43E008184BB /* AllergyView.swift */,
 				C84489662BE8F72A002B0DEC /* CameraScannerView.swift */,
 				C88000542BEE2BD900A23EEE /* CameraPhotoCapture.swift */,
@@ -565,6 +565,7 @@
 				DEVELOPMENT_TEAM = RLBH3H796P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -594,6 +595,7 @@
 				DEVELOPMENT_TEAM = RLBH3H796P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan barcode and text";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
