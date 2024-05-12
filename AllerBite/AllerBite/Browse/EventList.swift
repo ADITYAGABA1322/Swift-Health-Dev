@@ -43,6 +43,7 @@ struct EventList: View {
                     isAddingNewEvent = true
                 } label: {
                     Image(systemName: "plus")
+                        .foregroundColor(  Color(red: 79/255, green: 143/255, blue: 0/255))
                 }
                
             }

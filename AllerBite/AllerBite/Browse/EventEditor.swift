@@ -23,6 +23,7 @@ struct EventEditor: View {
                             Button("Cancel") {
                                 dismiss()
                             }
+                            .foregroundColor(  Color(red: 79/255, green: 143/255, blue: 0/255))
                         }
                     }
                     ToolbarItem {
@@ -41,6 +42,7 @@ struct EventEditor: View {
                             }
                         } label: {
                             Text(isNew ? "Add" : (isEditing ? "Done" : "Edit"))
+                                .foregroundColor(  Color(red: 79/255, green: 143/255, blue: 0/255))
                         }
                     }
                 }

@@ -59,7 +59,9 @@ struct EventDetail: View {
             } label: {
                 HStack {
                     Image(systemName: "plus")
+                        .foregroundColor(  Color(red: 79/255, green: 143/255, blue: 0/255))
                     Text("Add Task")
+                        .foregroundColor(  Color(red: 79/255, green: 143/255, blue: 0/255))
                     
                 }
             }

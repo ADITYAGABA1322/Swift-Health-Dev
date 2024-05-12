@@ -4,7 +4,7 @@ import SwiftUI
 struct AllerBiteApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScreenView()
         }
     }
 }
