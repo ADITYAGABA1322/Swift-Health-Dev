@@ -74,6 +74,6 @@ Intuitive UI design with smooth animations and interactions for enhanced user ex
 
 3.) Build and run the app on a simulator or device
 
-## If you have any feedback, suggestions, or encounter any issues, please feel free to open an issue on GitHub.
+#### If you have any feedback, suggestions, or encounter any issues, please feel free to open an issue on GitHub.
 
 # Thank you for using AllerBite!
